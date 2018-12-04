@@ -55,7 +55,7 @@
           </li>
           <li class="nav-item">
             <a href="/dashboard" class="nav-link">
-              <i class="nav-icon fa fa-dashboard"></i>
+              <i class="nav-icon fa fa-dashboard text-info"></i>
               <p>
                 Dashoard
               </p>
@@ -63,15 +63,23 @@
           </li>
           <li class="nav-item">
             <a href="/agent" class="nav-link">
-              <i class="nav-icon fa fa-users"></i>
+              <i class="nav-icon fa fa-users text-success"></i>
               <p>
                 Agents
               </p>
             </a>
           </li>
           <li class="nav-item">
+            <a href="/agent" class="nav-link">
+              <i class="nav-icon fa fa-users text-warning"></i>
+              <p>
+                Clients
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-envelope"></i>
+              <i class="nav-icon fa fa-envelope text-primary"></i>
               <p>
                 Messages
               </p>
@@ -81,7 +89,7 @@
             <a href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();" class="nav-link">
-              <i class="nav-icon fa fa-sign-out"></i>
+              <i class="nav-icon fa fa-sign-out text-danger"></i>
               <p>
                Logout
               </p>
