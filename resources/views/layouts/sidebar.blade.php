@@ -46,7 +46,7 @@
             </ul>
           </li> -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/dashboard" class="nav-link">
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Dashoard
@@ -54,7 +54,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/agent" class="nav-link">
               <i class="nav-icon fa fa-users"></i>
               <p>
                 Agents

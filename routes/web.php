@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth/login');
+});
+
+Route::get('/agent', function () {
+    return view('agent');
 });
 
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
