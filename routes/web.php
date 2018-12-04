@@ -23,6 +23,10 @@ Route::get('/profile', function () {
     return view('profile');
 });
 
+Route::get('/chat', function () {
+    return view('chat');
+});
+
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 
 
