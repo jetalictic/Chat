@@ -19,6 +19,10 @@ Route::get('/agent', function () {
     return view('agent');
 });
 
+Route::get('/profile', function () {
+    return view('profile');
+});
+
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 
 
